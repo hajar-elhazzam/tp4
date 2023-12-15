@@ -1,0 +1,38 @@
+<div class="col">
+    <h2 class="p-5 text-bold fw-bold">
+        Manage Users
+    </h2>
+  <table class="w-100 table table-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Avatar</th>
+        <th>{{ "USERS.FIRST_NAME" | translate }}</th>
+        <th>{{ "USERS.LAST_NAME" | translate }}</th>
+        <th>Email</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.id }}</td>
+        <td>
+          <img [src]="user.avatar" [alt]="user.first_name" class="img_avatar" />
+        </td>
+        <td>{{ user.first_name }}</td>
+        <td>{{ user.last_name }}</td>
+        <td>{{ user.email }}</td>
+        <td>
+          <ng-select
+            style="width: 200px"
+            [items]="actions"
+            bindLabel="name"
+            bindValue="id"
+            [(ngModel)]="selectedAction"
+          >
+            Actions
+          </ng-select>
+        </td>
+      </tr>
+    </tbody>
+  </table>

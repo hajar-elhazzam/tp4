@@ -1,0 +1,19 @@
+{
+    "HEADER": {
+      "TITLE": "Angular Training Presented by : Prof Oussama BOUISFI."
+    },
+    "SIDEBAR" : {
+        "TITLE" : "Sidebar Actions",
+        "HOME" : "Home",
+        "MANAGE_USERS" : "Manage Users"
+    },
+    "HOME" : {
+        "TITLE" : "Welcome to this training application TP-4"
+    },
+    "USERS" : {
+        "TITLE" : "Manage Users",
+        "FIRST_NAME" : "First Name",
+        "LAST_NAME"  : "Last Name"
+    }
+  }
+  

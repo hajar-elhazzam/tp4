@@ -1,0 +1,19 @@
+{
+    "HEADER": {
+      "TITLE": "Formation Angular présentée par le Professeur Oussama Bouisfi."
+    },
+    "SIDEBAR" : {
+        "TITLE" : "Les actions de SideBar",
+        "HOME" : "Accueil",
+        "MANAGE_USERS" : "Manager les Utilisateurs"
+    },
+    "HOME" : {
+        "TITLE" : "Bienvenue dans cette application de formation TP-4."
+    },
+    "USERS" : {
+        "TITLE" : "Manager les Utilisateurs",
+        "FIRST_NAME" : "Prénom",
+        "LAST_NAME"  : "Nom"
+    }
+    
+}
